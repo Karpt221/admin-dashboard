@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <div class="container">
-        
+        <nav class="nav-sidebar">
+            <a class="nav-link logo-link" href=""><img class="medium-icon" src="icons/view-dashboard.svg" alt="Logo"><h1>Dashboard</h1></a>
+            <ul>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/home.svg" alt="">Home</a></li>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/card-account-details-outline.svg" alt="">Profile</a></li>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/message-reply.svg" alt="">Messages</a></li>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/clock-time-three.svg" alt="">History</a></li>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/file-multiple.svg" alt="">Tasks</a></li>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/account-group.svg" alt="">Communities</a></li>
+            </ul>
+
+            <ul>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/cog.svg" alt="">Settings</a></li>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/help-box.svg" alt="">Support</a></li>
+                <li class="nav-li"><a class="nav-link" href=""><img class="small-icon" src="icons/shield-check.svg" alt="">Privacy</a></li>
+            </ul>
+        </nav>
+        <header class="header">
+            <section class="search-wrapper">
+                <form  action="" method="get">
+                    <button class='search-btn'><img class="small-icon" src="icons/magnify.svg" alt="Search button"></button>
+                    <input class="search-input" type="search" name="serach" id="search">
+                </form>
+            </section>
+
+            <section class="user-info-notifs">
+                <a href=""><img class="small-icon" src="icons/bell-outline.svg" alt="Notifications icon"></a>
+                <a class="user-info-link" href="">
+                    <img class="medium-icon" src="icons/account-circle.svg" alt="Account circle">
+                    <span>Morgan Oakley</span>
+                </a>
+            </section>
+            <section class="user-greetings">
+                <img class="user-greetings-icon large-icon" src="icons/account-circle.svg" alt="Account circle">
+                <p class="greetings-msg">Hi there,</p>
+                <p class="user-greetings-username">Morgan Oakley(@morgan)</p>
+            </section>
+            <section class="control-btns">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </section>
+        </header>
+        <main class="main-content">Main</main>
     </div>
 </body>
+
 </html>
